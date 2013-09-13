@@ -11,9 +11,7 @@
 #import "PassbookLayout.h"
 #import "PassbookCell.h"
 
-static NSUInteger DefaultVisibleCellHeight = 55;
-static NSUInteger FullCellHeight = 350;
-
+static NSUInteger DefaultVisibleCellHeight = 60;
 
 @interface PassbookCollectionViewController ()
 {
@@ -31,7 +29,7 @@ static NSUInteger FullCellHeight = 350;
     _dataSource = [[PassbookDataSource alloc] init];
     
     _layout = [[PassbookLayout alloc] init];
-    _layout.actualCellHeight = FullCellHeight;
+    _layout.actualCellHeight = CGRectGetHeight(self.view.frame) - 120;
     _layout.visibleCellHeight = DefaultVisibleCellHeight;
 
     self.collectionView = [[UICollectionView alloc] initWithFrame:CGRectZero
