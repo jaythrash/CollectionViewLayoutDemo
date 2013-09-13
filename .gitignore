@@ -1,25 +1,18 @@
-# Mac OS X
-*.DS_Store
-
 # Xcode
-*.pbxuser
-*.mode1v3
-*.mode2v3
-*.perspectivev3
-*.xcuserstate
-project.xcworkspace/
-xcuserdata/
-Wombat.xcodeproj/xcuserdata
-Wombat.xcodeproj/project.xcworkspace/xcuserdata
-
-# Generated files
-*.o
-*.pyc
-
-#Other modules
-MANIFEST
-dist/
+.DS_Store
 build/
-
-# Backup files
-*~.nib
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+*.moved-aside
+DerivedData
+.idea/
