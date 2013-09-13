@@ -94,7 +94,6 @@
 		256DEA9117E3546F003CA66E = {
 			isa = PBXGroup;
 			children = (
-				256DEAF617E3B03A003CA66E /* QuartzCore.framework */,
 				256DEAA317E3546F003CA66E /* CollectionViewLayoutDemo */,
 				256DEA9C17E3546F003CA66E /* Frameworks */,
 				256DEA9B17E3546F003CA66E /* Products */,
@@ -112,6 +111,7 @@
 		256DEA9C17E3546F003CA66E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				256DEAF617E3B03A003CA66E /* QuartzCore.framework */,
 				256DEA9D17E3546F003CA66E /* UIKit.framework */,
 				256DEA9F17E3546F003CA66E /* Foundation.framework */,
 				256DEAA117E3546F003CA66E /* CoreGraphics.framework */,
