@@ -5,5 +5,9 @@ Sample iOS app to demonstrate how to customize CollectionViewFlowLayout and Coll
 ##BookShelf Layout
 Example of a customized UICollectionViewFlowLayout which uses Supplimentary Views (Section Headers) and Decoration Views (the book shelves)
 
+![](https://raw.github.com/jaythrash/CollectionViewLayoutDemo/master/Bookshelf.png)
+
 ##Passbook Layout
-Example of a customized UICollectionViewLayout based on the iOS Passbook.app. CollectionView cells are displayed as a stacked deck of "cards" and tapping a card will shuffle it to the top of the screen while simultaneously moving the other cards to a stack at the bottom of the screen.
+Example of a customized UICollectionViewLayout based on the iOS Passbook.app. CollectionView cells are displayed as a stacked deck of "cards" and tapping a card will shuffle it to the top of the screen while simultaneously moving the other cards to a stack at the bottom of the screen. 
+
+![](https://raw.github.com/jaythrash/CollectionViewLayoutDemo/master/Passbook.gif)
