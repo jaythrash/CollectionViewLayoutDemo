@@ -17,7 +17,21 @@
 		256DEAB217E3546F003CA66E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 256DEAB117E3546F003CA66E /* Default@2x.png */; };
 		256DEAB417E3546F003CA66E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 256DEAB317E3546F003CA66E /* Default-568h@2x.png */; };
 		256DEAB717E3546F003CA66E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 256DEAB517E3546F003CA66E /* MainStoryboard.storyboard */; };
-		256DEABA17E3546F003CA66E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 256DEAB917E3546F003CA66E /* ViewController.m */; };
+		256DEABA17E3546F003CA66E /* BookShelfCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 256DEAB917E3546F003CA66E /* BookShelfCollectionViewController.m */; };
+		256DEAC917E35CFA003CA66E /* BookShelfLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 256DEAC817E35CFA003CA66E /* BookShelfLayout.m */; };
+		256DEACC17E35D8F003CA66E /* BookShelfDecorationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 256DEACB17E35D8F003CA66E /* BookShelfDecorationView.m */; };
+		256DEAD317E3678A003CA66E /* BookShelfDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 256DEAD217E3678A003CA66E /* BookShelfDataSource.m */; };
+		256DEAD617E36A8E003CA66E /* BookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 256DEAD517E36A8E003CA66E /* BookCell.m */; };
+		256DEAD917E36BFE003CA66E /* BookShelfHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 256DEAD817E36BFE003CA66E /* BookShelfHeaderView.m */; };
+		256DEADD17E387AD003CA66E /* white-tweed.png in Resources */ = {isa = PBXBuildFile; fileRef = 256DEADB17E387AD003CA66E /* white-tweed.png */; };
+		256DEADE17E387AD003CA66E /* white-tweed@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 256DEADC17E387AD003CA66E /* white-tweed@2X.png */; };
+		256DEAE117E39CAC003CA66E /* shelf.png in Resources */ = {isa = PBXBuildFile; fileRef = 256DEADF17E39CAC003CA66E /* shelf.png */; };
+		256DEAE217E39CAC003CA66E /* shelf@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 256DEAE017E39CAC003CA66E /* shelf@2x.png */; };
+		256DEAEA17E3A4BB003CA66E /* PassbookCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 256DEAE917E3A4BB003CA66E /* PassbookCollectionViewController.m */; };
+		256DEAEF17E3A52F003CA66E /* PassbookDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 256DEAEE17E3A52F003CA66E /* PassbookDataSource.m */; };
+		256DEAF217E3A873003CA66E /* PassbookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 256DEAF117E3A873003CA66E /* PassbookCell.m */; };
+		256DEAF517E3AA48003CA66E /* PassbookLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 256DEAF417E3AA48003CA66E /* PassbookLayout.m */; };
+		256DEAF717E3B03A003CA66E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256DEAF617E3B03A003CA66E /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +49,31 @@
 		256DEAB117E3546F003CA66E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		256DEAB317E3546F003CA66E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		256DEAB617E3546F003CA66E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		256DEAB817E3546F003CA66E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		256DEAB917E3546F003CA66E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		256DEAB817E3546F003CA66E /* BookShelfCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookShelfCollectionViewController.h; sourceTree = "<group>"; };
+		256DEAB917E3546F003CA66E /* BookShelfCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookShelfCollectionViewController.m; sourceTree = "<group>"; };
+		256DEAC717E35CFA003CA66E /* BookShelfLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookShelfLayout.h; sourceTree = "<group>"; };
+		256DEAC817E35CFA003CA66E /* BookShelfLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookShelfLayout.m; sourceTree = "<group>"; };
+		256DEACA17E35D8F003CA66E /* BookShelfDecorationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookShelfDecorationView.h; sourceTree = "<group>"; };
+		256DEACB17E35D8F003CA66E /* BookShelfDecorationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookShelfDecorationView.m; sourceTree = "<group>"; };
+		256DEAD117E3678A003CA66E /* BookShelfDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookShelfDataSource.h; sourceTree = "<group>"; };
+		256DEAD217E3678A003CA66E /* BookShelfDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookShelfDataSource.m; sourceTree = "<group>"; };
+		256DEAD417E36A8E003CA66E /* BookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookCell.h; sourceTree = "<group>"; };
+		256DEAD517E36A8E003CA66E /* BookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookCell.m; sourceTree = "<group>"; };
+		256DEAD717E36BFE003CA66E /* BookShelfHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookShelfHeaderView.h; sourceTree = "<group>"; };
+		256DEAD817E36BFE003CA66E /* BookShelfHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookShelfHeaderView.m; sourceTree = "<group>"; };
+		256DEADB17E387AD003CA66E /* white-tweed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white-tweed.png"; sourceTree = "<group>"; };
+		256DEADC17E387AD003CA66E /* white-tweed@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white-tweed@2X.png"; sourceTree = "<group>"; };
+		256DEADF17E39CAC003CA66E /* shelf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shelf.png; sourceTree = "<group>"; };
+		256DEAE017E39CAC003CA66E /* shelf@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shelf@2x.png"; sourceTree = "<group>"; };
+		256DEAE817E3A4BB003CA66E /* PassbookCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassbookCollectionViewController.h; sourceTree = "<group>"; };
+		256DEAE917E3A4BB003CA66E /* PassbookCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassbookCollectionViewController.m; sourceTree = "<group>"; };
+		256DEAED17E3A52F003CA66E /* PassbookDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassbookDataSource.h; sourceTree = "<group>"; };
+		256DEAEE17E3A52F003CA66E /* PassbookDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassbookDataSource.m; sourceTree = "<group>"; };
+		256DEAF017E3A873003CA66E /* PassbookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassbookCell.h; sourceTree = "<group>"; };
+		256DEAF117E3A873003CA66E /* PassbookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassbookCell.m; sourceTree = "<group>"; };
+		256DEAF317E3AA48003CA66E /* PassbookLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassbookLayout.h; sourceTree = "<group>"; };
+		256DEAF417E3AA48003CA66E /* PassbookLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassbookLayout.m; sourceTree = "<group>"; };
+		256DEAF617E3B03A003CA66E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,9 +81,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				256DEAF717E3B03A003CA66E /* QuartzCore.framework in Frameworks */,
+				256DEAA217E3546F003CA66E /* CoreGraphics.framework in Frameworks */,
 				256DEA9E17E3546F003CA66E /* UIKit.framework in Frameworks */,
 				256DEAA017E3546F003CA66E /* Foundation.framework in Frameworks */,
-				256DEAA217E3546F003CA66E /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +94,7 @@
 		256DEA9117E3546F003CA66E = {
 			isa = PBXGroup;
 			children = (
+				256DEAF617E3B03A003CA66E /* QuartzCore.framework */,
 				256DEAA317E3546F003CA66E /* CollectionViewLayoutDemo */,
 				256DEA9C17E3546F003CA66E /* Frameworks */,
 				256DEA9B17E3546F003CA66E /* Products */,
@@ -83,11 +122,14 @@
 		256DEAA317E3546F003CA66E /* CollectionViewLayoutDemo */ = {
 			isa = PBXGroup;
 			children = (
+				256DEAC317E3561A003CA66E /* Controllers */,
+				256DEAC617E3562C003CA66E /* Layouts */,
+				256DEAC517E35627003CA66E /* Views */,
+				256DEAC417E3561F003CA66E /* Models */,
+				256DEADA17E38776003CA66E /* Assets */,
 				256DEAAC17E3546F003CA66E /* AppDelegate.h */,
 				256DEAAD17E3546F003CA66E /* AppDelegate.m */,
 				256DEAB517E3546F003CA66E /* MainStoryboard.storyboard */,
-				256DEAB817E3546F003CA66E /* ViewController.h */,
-				256DEAB917E3546F003CA66E /* ViewController.m */,
 				256DEAA417E3546F003CA66E /* Supporting Files */,
 			);
 			path = CollectionViewLayoutDemo;
@@ -105,6 +147,113 @@
 				256DEAB317E3546F003CA66E /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		256DEAC317E3561A003CA66E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				256DEAB817E3546F003CA66E /* BookShelfCollectionViewController.h */,
+				256DEAB917E3546F003CA66E /* BookShelfCollectionViewController.m */,
+				256DEAE817E3A4BB003CA66E /* PassbookCollectionViewController.h */,
+				256DEAE917E3A4BB003CA66E /* PassbookCollectionViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		256DEAC417E3561F003CA66E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		256DEAC517E35627003CA66E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		256DEAC617E3562C003CA66E /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				256DEAE717E3A498003CA66E /* Passbook */,
+				256DEAE417E3A41D003CA66E /* Book Shelf */,
+			);
+			name = Layouts;
+			sourceTree = "<group>";
+		};
+		256DEADA17E38776003CA66E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				256DEADF17E39CAC003CA66E /* shelf.png */,
+				256DEAE017E39CAC003CA66E /* shelf@2x.png */,
+				256DEADB17E387AD003CA66E /* white-tweed.png */,
+				256DEADC17E387AD003CA66E /* white-tweed@2X.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		256DEAE417E3A41D003CA66E /* Book Shelf */ = {
+			isa = PBXGroup;
+			children = (
+				256DEAC717E35CFA003CA66E /* BookShelfLayout.h */,
+				256DEAC817E35CFA003CA66E /* BookShelfLayout.m */,
+				256DEAE617E3A472003CA66E /* DataSource */,
+				256DEAE517E3A465003CA66E /* Views */,
+			);
+			name = "Book Shelf";
+			sourceTree = "<group>";
+		};
+		256DEAE517E3A465003CA66E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				256DEACA17E35D8F003CA66E /* BookShelfDecorationView.h */,
+				256DEACB17E35D8F003CA66E /* BookShelfDecorationView.m */,
+				256DEAD417E36A8E003CA66E /* BookCell.h */,
+				256DEAD517E36A8E003CA66E /* BookCell.m */,
+				256DEAD717E36BFE003CA66E /* BookShelfHeaderView.h */,
+				256DEAD817E36BFE003CA66E /* BookShelfHeaderView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		256DEAE617E3A472003CA66E /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				256DEAD117E3678A003CA66E /* BookShelfDataSource.h */,
+				256DEAD217E3678A003CA66E /* BookShelfDataSource.m */,
+			);
+			name = DataSource;
+			sourceTree = "<group>";
+		};
+		256DEAE717E3A498003CA66E /* Passbook */ = {
+			isa = PBXGroup;
+			children = (
+				256DEAF317E3AA48003CA66E /* PassbookLayout.h */,
+				256DEAF417E3AA48003CA66E /* PassbookLayout.m */,
+				256DEAEC17E3A4D1003CA66E /* Views */,
+				256DEAEB17E3A4C9003CA66E /* DataSource */,
+			);
+			name = Passbook;
+			sourceTree = "<group>";
+		};
+		256DEAEB17E3A4C9003CA66E /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				256DEAED17E3A52F003CA66E /* PassbookDataSource.h */,
+				256DEAEE17E3A52F003CA66E /* PassbookDataSource.m */,
+			);
+			name = DataSource;
+			sourceTree = "<group>";
+		};
+		256DEAEC17E3A4D1003CA66E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				256DEAF017E3A873003CA66E /* PassbookCell.h */,
+				256DEAF117E3A873003CA66E /* PassbookCell.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +312,10 @@
 				256DEAB217E3546F003CA66E /* Default@2x.png in Resources */,
 				256DEAB417E3546F003CA66E /* Default-568h@2x.png in Resources */,
 				256DEAB717E3546F003CA66E /* MainStoryboard.storyboard in Resources */,
+				256DEADD17E387AD003CA66E /* white-tweed.png in Resources */,
+				256DEADE17E387AD003CA66E /* white-tweed@2X.png in Resources */,
+				256DEAE117E39CAC003CA66E /* shelf.png in Resources */,
+				256DEAE217E39CAC003CA66E /* shelf@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +328,16 @@
 			files = (
 				256DEAAA17E3546F003CA66E /* main.m in Sources */,
 				256DEAAE17E3546F003CA66E /* AppDelegate.m in Sources */,
-				256DEABA17E3546F003CA66E /* ViewController.m in Sources */,
+				256DEABA17E3546F003CA66E /* BookShelfCollectionViewController.m in Sources */,
+				256DEAC917E35CFA003CA66E /* BookShelfLayout.m in Sources */,
+				256DEACC17E35D8F003CA66E /* BookShelfDecorationView.m in Sources */,
+				256DEAD317E3678A003CA66E /* BookShelfDataSource.m in Sources */,
+				256DEAD617E36A8E003CA66E /* BookCell.m in Sources */,
+				256DEAD917E36BFE003CA66E /* BookShelfHeaderView.m in Sources */,
+				256DEAEA17E3A4BB003CA66E /* PassbookCollectionViewController.m in Sources */,
+				256DEAEF17E3A52F003CA66E /* PassbookDataSource.m in Sources */,
+				256DEAF217E3A873003CA66E /* PassbookCell.m in Sources */,
+				256DEAF517E3AA48003CA66E /* PassbookLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
